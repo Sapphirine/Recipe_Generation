@@ -27,7 +27,7 @@ Recipes.csv
 Nodes.csv, Edges.csv, features.csv, SVDfactor.npy 
 
 ## Model
-SGBT (Stochastic Gradient Boosting Tree)
+SGBT (Stochastic Gradient Boosted Tree)
 
 ## Package Description
 We provided python implementation for our recipe generator. To be able to run the package, one needs to first download the pre-stored file containing nodes (Nodes.csv) and edges (Edges.csv) from the Data directory, pre-trained boosted tree model (SGBT directory), and network features (features.csv, SVDfactor.npy), also from the Data directory. Users can then run the python script generator.py to see the results. (All the scripts can be found in in the Code directory)
