@@ -28,7 +28,7 @@ To be able to run the scraper, you need to download the following tools:
   selenium, pymongo, numpy, pandas
 
 ## Dataset
-Recipes.csv
+Recipes.csv, stored in the Data folder.
 
 ## Network Data
 Nodes.csv, Edges.csv, features.csv, SVDfactor.npy
