@@ -23,7 +23,7 @@ recipe generator
 + After the generator is initiated, users will first be asked to input one or two ingredients they would like to try (separated by comma and no space allowed after the comma). If they are not satisfied with the suggested recipe, a new recipe will be generated until the generator produces one that the users like. If the user input consists of unusual ingredient combinations that are considered unachievable as stated in section 4.4 (2), users will be asked to input another set of ingredients. 
 
 ### scraping.py:
-scraping recipes from allrecipes.com
+webscraping from allrecipes.com
 
 ### processing.py:
 text processing with Spark and nltk
