@@ -31,13 +31,13 @@ To be able to run the scraper, you need to download the following tools:
 Recipes.csv, stored in the Data folder.
 
 ## Network Data
-Nodes.csv, Edges.csv, features.csv, SVDfactor.npy
+Nodes.csv, Edges.csv, features.csv, SVDfactor.npy (all stored in the Data folder)
 
 ## Model
 SGBT
 
 ## Package Description
-We provided python implementation for our recipe generator. To be able to run the package, one need to first download the pre-stored file containing nodes (Nodes.csv) and edges (Edges.csv), pre-trained boosted tree model (SGBT directory), and network features (features.csv, SVDfactor.npy). Users can then run the python script generator.py to see the results.
+We provided python implementation for our recipe generator. To be able to run the package, one need to first download the pre-stored file containing nodes (Nodes.csv) and edges (Edges.csv), pre-trained boosted tree model (SGBT directory), and network features (features.csv, SVDfactor.npy). Users can then run the python script generator.py to see the results. (All the below scripts are in the Code folder)
 
 ### generator.py: 
 recipe generator
