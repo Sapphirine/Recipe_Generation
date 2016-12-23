@@ -181,7 +181,7 @@ if __name__ == '__main__':
 	print "Initializing ..."	
 
 	nodeDF = pd.read_csv("/Users/Jiajia/Google Drive/Columbia/Big Data/Nodes.csv", header=None, names=['id','ingredients'])
-	factor = np.load('SVDfactor_k60.npy')
+	factor = np.load('SVDfactor.npy')
 	ctrDF = pd.read_csv("/Users/Jiajia/Google Drive/Columbia/Big Data/features.csv")
 	G = nx.read_weighted_edgelist("Edges.csv", delimiter=',', create_using=nx.Graph(), nodetype=int)
 	#print nx.info(G)
