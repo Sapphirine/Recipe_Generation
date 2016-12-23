@@ -14,7 +14,7 @@ Our dataset was scaped from Allrecipes.com (http://allrecipes.com/recipes/?group
   4. ingredients: a list of ingredients needed for the recipe (type: list)
 
 To be able to use the scraper, you need to download the following tools:
-  1. MongoDB: 
+  1. MongoDB
   2. Chromedriver (if you are using Chrome):
   https://chromedriver.storage.googleapis.com/index.html?path=2.25/
   3. Install the following python libraries:
