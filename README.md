@@ -50,7 +50,7 @@ Network Construction
 Network Centrality and Community Detection
 
 ### lsa.py :
-Network Feature Extraction with latent semantic analysis
+Network Feature Extraction with Latent Semantic Analysis
 
 ### sgbt.ipynb :
 Rating Prediction with Stochastic Gradient Boosted Trees
