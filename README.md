@@ -9,9 +9,10 @@ Recipe recording and sharing has been around for many years. Recipe collections 
 
 Our dataset was scaped from Allrecipes.com (http://allrecipes.com/recipes/?grouping=all). Each row contains the following features:
   1. id: ID of the recipe (type: string)
-  2. made_it_count: the number of users who have tried the recipe (type: int)
-  3. time: the total time needed for the recipe (including preparing and cooking) (type: int)
-  4. ingredients: a list of ingredients needed for the recipe (type: list)
+  2. title: title of the recipe (type: string)
+  3. made_it_count: the number of users who have tried the recipe (type: int)
+  4. time: the total time needed for the recipe (including preparing and cooking) (type: int)
+  5. ingredients: a list of ingredients needed for the recipe (type: list)
 
 To be able to use the scraper, you need to download the following tools:
   1. MongoDB
